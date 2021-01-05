@@ -3,9 +3,9 @@
 ### This is a module for [AzerothCore](http://www.azerothcore.org)
 - Latest build status with azerothcore: [![Build Status](https://github.com/azerothcore/mod-weapon-visual/workflows/core-build/badge.svg?branch=master&event=push)](https://github.com/azerothcore/mod-weapon-visual)
 
-## Important notes
+## 重要笔记
 
-If you use an old version of this module please update the table structure using this SQL statement:
+果使用此模块的旧版本，请使用以下SQL语句更新表结构：
 ```sql
 ALTER TABLE `custom_item_enchant_visuals`
 CHANGE `iguid` `item_guid` int(10) unsigned NOT NULL COMMENT 'item DB guid' FIRST,
@@ -15,15 +15,15 @@ RENAME TO `mod_weapon_visual_effect`,
 COMMENT='Stores the enchant IDs for the visuals of mod-weapon-visual';
 ```
 
-## Description
-- Character services: Adding Visual style for Weapons
+## 描述
+- 角色服务：为武器添加视觉效果
 
 ### How to install
-1. Simply place the module under the `modules` folder of your AzerothCore source folder.
-2. Re-run cmake and launch a clean build of AzerothCore
-3. Import `sql/world/base/creature_template.sql` into your world DB.
-4. Import `sql/characters/base/mod_weapon_visual_effect.sql` into your characters DB.
-5. Log in game, spawn Npc ID 55003, Enjoy.
+1. 只需将模块放在modulesAzerothCore源文件夹的文件夹下即可。
+2. 重新运行cmake并启动AzerothCore的全新构建
+3. 导入 `sql/world/base/creature_template.sql` 到 world DB.
+4. 导入 `sql/characters/base/mod_weapon_visual_effect.sql` 到 characters DB.
+5. 登录游戏， 生成 Npc ID 55003, Enjoy.
 
 ### Usage
 - Enable this module and talk with the assigned creature :D

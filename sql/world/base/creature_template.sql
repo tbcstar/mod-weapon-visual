@@ -1,5 +1,5 @@
-Set @NpcName = "Eron Glowpride",
-    @NpcSubname = "Weapon Glow Specialist",
+Set @NpcName = "埃朗·盖隆",
+    @NpcSubname = "武器效果专家",
     @NpcEntry = 55003,
     @NpcDisplayID = 31833,
     @NpcLevel = 80;
