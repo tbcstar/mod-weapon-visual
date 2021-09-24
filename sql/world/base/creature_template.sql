@@ -1,6 +1,6 @@
 Set @NpcName = "埃朗·盖隆",
     @NpcSubname = "武器效果专家",
-    @NpcEntry = 55003,
+    @NpcEntry = 190002,
     @NpcDisplayID = 31833,
     @NpcLevel = 80;
 
